@@ -12,27 +12,27 @@ Leading Span periods- 52
 displacement- 26
 These parameters are configurable based on the preferences of the trader and the asset class. For cryptocurrency pairs, we adjust the parameters to 20, 60, 120, 30 as the crypto market is open 24/7 and more volatile than other assets so to capture the bigger movements we almost doubled the parameter values.
 
-###### 2.1 Tenkan-sen (Conversion Line): (20-period high + 20-period low)/2
+##### 2.1 Tenkan-sen (Conversion Line): (20-period high + 20-period low)/2
 
-###### 2.2 Kijun-sen (Base Line): (60-period high + 60-period low)/2
+##### 2.2 Kijun-sen (Base Line): (60-period high + 60-period low)/2
 
-###### 2.3 Senkou Span A (Leading Span A): (Conversion Line + Base Line)/2
+##### 2.3 Senkou Span A (Leading Span A): (Conversion Line + Base Line)/2
 
-###### 2.4 Senkou Span B (Leading Span B): (120-period high + 120-period low)/2
+##### 2.4 Senkou Span B (Leading Span B): (120-period high + 120-period low)/2
 
-###### 2.5 Chikou Span (Lagging Span): Close plotted 30 days in the past
+##### 2.5 Chikou Span (Lagging Span): Close plotted 30 days in the past
 
-###### 2.6 A cloud which is the area between Senkou Span A and Senkou Span B.
+##### 2.6 A cloud which is the area between Senkou Span A and Senkou Span B.
 The Cloud is the most prominent feature of the Ichimoku Cloud plots. The Leading Span A and Leading Span B form the Cloud. As you can see in the below chart, the prices are above, below or in the cloud. The trend is up when prices are above the cloud, down when prices are below the cloud and flat when prices are in the cloud.
 
 # 3. Trading signals
 
-##### 3.1 Entry signal
+#### 3.1 Entry signal
 We buy the Bitcoin:
 1) When prices are above the cloud and leading Span A (senkou_span_A) is rising above the leading span B (senkou_span_B).
 2) Conversion Line (tenkan_sen) moves above Base Line (kijun_sen)
 
-##### 3.2 Exit signal
+#### 3.2 Exit signal
 1) When prices are below the cloud and leading Span A (senkou_span_A) falls below the leading span B (senkou_span_B).
 2) Conversion Line (tenkan_sen) moves below Base Line (kijun_sen)
 
